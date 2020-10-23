@@ -6,7 +6,7 @@ import './index.css';
 import { Drizzle, generateStore } from '@drizzle/store';
 import MyStringStore from './contracts/MyStringStore.json';
 
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 
