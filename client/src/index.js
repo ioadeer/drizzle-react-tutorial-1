@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// import dirzzle functions and contract artifact
+// import drizzle functions and contract artifact
 import { Drizzle, generateStore } from '@drizzle/store';
 import MyStringStore from './contracts/MyStringStore.json';
 
@@ -15,7 +15,9 @@ const options = {
   web3: {
     fallback: {
       type: 'ws',
-      url: 'ws://127.0.0.1:9545',
+      // deployed infura
+      url: 'https://rinkeby.infura.io/v3/15469892c9df43c4817b8a578b774b21',
+      //url: 'ws://127.0.0.1:9545',
     },
   },
 };
